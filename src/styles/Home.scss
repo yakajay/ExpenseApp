@@ -1,0 +1,31 @@
+@import "variables";
+
+.home {
+    width: 100%;
+    .header {
+        position: fixed;
+        background-color: $primary-bg; 
+        color: $primay-color;
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 1.5rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        .nav-items{
+            display: flex;
+            column-gap: 1rem;
+        }
+        a{
+            background-color: $primary-bg; 
+            color: $primay-color;
+            text-decoration: none;
+        }
+    }
+    .banner{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
